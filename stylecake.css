@@ -1,0 +1,73 @@
+body {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    background-image: url(https://byronsmuse.files.wordpress.com/2015/05/background-striped-light-brown.png?w=640)
+}
+
+#mainheader {
+    background-color: plum;
+    display: block;
+    border: none;
+    box-sizing: border-box;
+
+
+}
+
+nav {
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto 20px;
+
+}
+
+#leftmenu {
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+#main {
+    float: left;
+    width: 70%;
+    margin-bottom: 20px;
+
+}
+
+.searchbox {
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+
+}
+
+footer {
+    clear: both;
+    width: 100%
+}
+
+#special:hover {
+    color: red;
+    
+}
+nav>ul>li a{
+    display:block;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    text-decoration:none;
+    padding:10px; 
+    float:left;
+ }
+
+nav>ul{
+    list-style-type :none;
+    margin:0;
+    padding:0;
+
+}    
+nav>ul>li{
+    float:left
+}
